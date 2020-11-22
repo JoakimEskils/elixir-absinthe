@@ -1,26 +1,16 @@
-# Absinthe Tutorial Code
+# Elixir Absinthe
 
-This repository houses the example code for the official Absinthe tutorial
-that ships with [Absinthe's documentation](https://hexdocs.pm/absinthe).
+Using the getting started guide to create a graphql application to manage blog posts. Credits over at https://hexdocs.pm/absinthe/start.html#content
 
-It currently targets:
+# Install & run
 
-- Absinthe v1.4
-- Phoenix v1.3
+First of all make sure you have elixir installed.
+The run the following commands:
 
-## Contributing/Scope
+* mix deps.get
+* mix phx.server
 
-Note the tutorial's target audience are beginners and the scope is
-currently limited to queries, mutations, and basic schema definitions.
+# Issues
 
-Contributions of additional features (e.g., subscriptions, more complex types, file uploads, etc)
-should:
-
-- Still keep beginners in mind.
-- Be linked to a PR in the [absinthe](https://github.com/absinthe-graphql/absinthe) project
-  contributing a draft of accompanying text---as a believable expansion of the tutorial
-  narrative.
-
-## License
-
-See [LICENSE.md](./LICENSE.md).
+Unfortunately the code is not running at the moment, attempting to resolve an issue concerning an unimplemented root query type. 
+This project is on hold.
